@@ -23,7 +23,7 @@ void setup() {
 void loop() {
     double V = firstThermistor.readVoltage();
     double R = firstThermistor.readResistance();
-    double T = firstThermistor.readTempurature();
+    double T = firstThermistor.readTemperature();
     Serial.println("---");
     Serial.print("voltage: ");
     Serial.println(V);
