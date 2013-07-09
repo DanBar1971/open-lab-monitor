@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.05" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
+<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="no" active="no"/>
 <layer number="2" name="Route2" color="1" fill="3" visible="no" active="no"/>
@@ -11017,25 +11017,25 @@ This library includes the former libraries ribcon.lbr and ribcon4.lbr.&lt;p&gt;
 </classes>
 <parts>
 <part name="GND2" library="supply1" deviceset="GND" device=""/>
-<part name="C1" library="adafruit" deviceset="C-US" device="C0805K" value="10uF"/>
+<part name="C2" library="adafruit" deviceset="C-US" device="C0805K" value="10uF"/>
 <part name="IC1" library="adafruit" deviceset="MAX6675" device="" value="MAX31855"/>
 <part name="GND1" library="supply1" deviceset="GND" device=""/>
 <part name="J1" library="adafruit" deviceset="1X2" device="-3.5MM"/>
 <part name="+3V2" library="supply1" deviceset="+3V3" device=""/>
 <part name="+3V3" library="supply1" deviceset="+3V3" device=""/>
 <part name="+3V4" library="supply1" deviceset="+3V3" device=""/>
-<part name="C2" library="adafruit" deviceset="C-US" device="C0805K" value="10uF"/>
+<part name="C3" library="adafruit" deviceset="C-US" device="C0805K" value="10uF"/>
 <part name="+3V5" library="supply1" deviceset="+3V3" device=""/>
 <part name="GND4" library="supply1" deviceset="GND" device=""/>
-<part name="D1" library="adafruit" deviceset="DIODE" device="SOD-323F" value="1n4148"/>
-<part name="D2" library="adafruit" deviceset="DIODE" device="SOD-323F" value="1N4148"/>
-<part name="R1" library="adafruit" deviceset="R-US_" device="R0805" value="10K"/>
+<part name="D2" library="adafruit" deviceset="DIODE" device="SOD-323F" value="1n4148"/>
+<part name="D1" library="adafruit" deviceset="DIODE" device="SOD-323F" value="1N4148"/>
 <part name="R2" library="adafruit" deviceset="R-US_" device="R0805" value="10K"/>
+<part name="R1" library="adafruit" deviceset="R-US_" device="R0805" value="10K"/>
 <part name="+3V7" library="supply1" deviceset="+3V3" device=""/>
 <part name="+3V8" library="supply1" deviceset="+3V3" device=""/>
 <part name="FB1" library="microbuilder" deviceset="FERRITE" device="_0805" value="Ferrite"/>
 <part name="FB2" library="microbuilder" deviceset="FERRITE" device="_0805" value="Ferrite"/>
-<part name="C3" library="microbuilder" deviceset="CAP_CERAMIC" device="_0805" value="0.01µF"/>
+<part name="C1" library="microbuilder" deviceset="CAP_CERAMIC" device="_0805" value="0.01µF"/>
 <part name="U1" library="sensor" deviceset="AM2302" device="" value="AM2302"/>
 <part name="J2" library="adafruit" deviceset="1X2" device="-3.5MM"/>
 <part name="GND5" library="SparkFun" deviceset="GND" device=""/>
@@ -11049,6 +11049,8 @@ This library includes the former libraries ribcon.lbr and ribcon4.lbr.&lt;p&gt;
 <part name="JP2" library="SparkFun-Connectors" deviceset="M10" device="&quot;"/>
 <part name="+3V1" library="supply1" deviceset="+3V3" device=""/>
 <part name="+3V11" library="supply1" deviceset="+3V3" device=""/>
+<part name="JP3" library="SparkFun-Connectors" deviceset="M10" device="&quot;"/>
+<part name="+3V12" library="supply1" deviceset="+3V3" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -11060,25 +11062,25 @@ Humidity+Ambient Temp</text>
 </plain>
 <instances>
 <instance part="GND2" gate="1" x="45.72" y="40.64"/>
-<instance part="C1" gate="G$1" x="45.72" y="50.8"/>
+<instance part="C2" gate="G$1" x="45.72" y="50.8"/>
 <instance part="IC1" gate="G$1" x="17.78" y="17.78"/>
 <instance part="GND1" gate="1" x="2.54" y="20.32" rot="R270"/>
 <instance part="J1" gate="G$1" x="-35.56" y="15.24" rot="R180"/>
 <instance part="+3V2" gate="G$1" x="33.02" y="33.02"/>
 <instance part="+3V3" gate="G$1" x="2.54" y="7.62" rot="R90"/>
 <instance part="+3V4" gate="G$1" x="45.72" y="60.96"/>
-<instance part="C2" gate="G$1" x="55.88" y="50.8"/>
+<instance part="C3" gate="G$1" x="55.88" y="50.8"/>
 <instance part="+3V5" gate="G$1" x="55.88" y="60.96"/>
 <instance part="GND4" gate="1" x="55.88" y="40.64"/>
-<instance part="D1" gate="G$1" x="53.34" y="10.16" rot="MR180"/>
-<instance part="D2" gate="G$1" x="53.34" y="12.7" rot="MR180"/>
-<instance part="R1" gate="G$1" x="45.72" y="5.08" rot="R90"/>
-<instance part="R2" gate="G$1" x="45.72" y="17.78" rot="R270"/>
+<instance part="D2" gate="G$1" x="53.34" y="10.16" rot="MR180"/>
+<instance part="D1" gate="G$1" x="53.34" y="12.7" rot="MR180"/>
+<instance part="R2" gate="G$1" x="45.72" y="5.08" rot="R90"/>
+<instance part="R1" gate="G$1" x="45.72" y="17.78" rot="R270"/>
 <instance part="+3V7" gate="G$1" x="45.72" y="25.4"/>
 <instance part="+3V8" gate="G$1" x="45.72" y="-2.54" rot="R180"/>
 <instance part="FB1" gate="G$1" x="-20.32" y="20.32"/>
 <instance part="FB2" gate="G$1" x="-20.32" y="7.62"/>
-<instance part="C3" gate="G$1" x="-12.7" y="12.7"/>
+<instance part="C1" gate="G$1" x="-12.7" y="12.7"/>
 <instance part="U1" gate="G$1" x="123.19" y="-46.99" smashed="yes" rot="MR180">
 <attribute name="NAME" x="121.92" y="-53.34" size="1.778" layer="95" ratio="10" rot="MR180"/>
 <attribute name="VALUE" x="120.65" y="-39.37" size="1.778" layer="95" ratio="10" rot="MR180"/>
@@ -11098,18 +11100,20 @@ Humidity+Ambient Temp</text>
 <instance part="JP2" gate="G$1" x="231.14" y="25.4" rot="R180"/>
 <instance part="+3V1" gate="G$1" x="121.92" y="39.37" rot="R90"/>
 <instance part="+3V11" gate="G$1" x="198.12" y="38.1" rot="R90"/>
+<instance part="JP3" gate="G$1" x="276.86" y="25.4" rot="R180"/>
+<instance part="+3V12" gate="G$1" x="243.84" y="38.1" rot="R90"/>
 </instances>
 <busses>
 </busses>
 <nets>
 <net name="GND" class="0">
 <segment>
-<pinref part="C1" gate="G$1" pin="2"/>
+<pinref part="C2" gate="G$1" pin="2"/>
 <pinref part="GND2" gate="1" pin="GND"/>
 <wire x1="45.72" y1="45.72" x2="45.72" y2="43.18" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<pinref part="C2" gate="G$1" pin="2"/>
+<pinref part="C3" gate="G$1" pin="2"/>
 <pinref part="GND4" gate="1" pin="GND"/>
 <wire x1="55.88" y1="45.72" x2="55.88" y2="43.18" width="0.1524" layer="91"/>
 </segment>
@@ -11149,6 +11153,11 @@ Humidity+Ambient Temp</text>
 <wire x1="220.98" y1="40.64" x2="210.82" y2="40.64" width="0.1524" layer="91"/>
 <label x="210.82" y="40.64" size="1.778" layer="95"/>
 </segment>
+<segment>
+<pinref part="JP3" gate="G$1" pin="2"/>
+<wire x1="266.7" y1="40.64" x2="256.54" y2="40.64" width="0.1524" layer="91"/>
+<label x="256.54" y="40.64" size="1.778" layer="95"/>
+</segment>
 </net>
 <net name="CS" class="0">
 <segment>
@@ -11156,8 +11165,8 @@ Humidity+Ambient Temp</text>
 <wire x1="45.72" y1="12.7" x2="50.8" y2="12.7" width="0.1524" layer="91"/>
 <junction x="45.72" y="12.7"/>
 <pinref part="IC1" gate="G$1" pin="/CS"/>
-<pinref part="R2" gate="G$1" pin="2"/>
-<pinref part="D2" gate="G$1" pin="A"/>
+<pinref part="R1" gate="G$1" pin="2"/>
+<pinref part="D1" gate="G$1" pin="A"/>
 </segment>
 </net>
 <net name="+3V3" class="0">
@@ -11166,21 +11175,21 @@ Humidity+Ambient Temp</text>
 <pinref part="+3V3" gate="G$1" pin="+3V3"/>
 </segment>
 <segment>
-<pinref part="C1" gate="G$1" pin="1"/>
+<pinref part="C2" gate="G$1" pin="1"/>
 <pinref part="+3V4" gate="G$1" pin="+3V3"/>
 <wire x1="45.72" y1="58.42" x2="45.72" y2="53.34" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<pinref part="C2" gate="G$1" pin="1"/>
+<pinref part="C3" gate="G$1" pin="1"/>
 <pinref part="+3V5" gate="G$1" pin="+3V3"/>
 <wire x1="55.88" y1="58.42" x2="55.88" y2="53.34" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<pinref part="R2" gate="G$1" pin="1"/>
+<pinref part="R1" gate="G$1" pin="1"/>
 <pinref part="+3V7" gate="G$1" pin="+3V3"/>
 </segment>
 <segment>
-<pinref part="R1" gate="G$1" pin="1"/>
+<pinref part="R2" gate="G$1" pin="1"/>
 <pinref part="+3V8" gate="G$1" pin="+3V3"/>
 </segment>
 <segment>
@@ -11215,6 +11224,12 @@ Humidity+Ambient Temp</text>
 <label x="210.82" y="38.1" size="1.778" layer="95"/>
 <pinref part="+3V11" gate="G$1" pin="+3V3"/>
 </segment>
+<segment>
+<pinref part="JP3" gate="G$1" pin="3"/>
+<wire x1="266.7" y1="38.1" x2="246.38" y2="38.1" width="0.1524" layer="91"/>
+<label x="256.54" y="38.1" size="1.778" layer="95"/>
+<pinref part="+3V12" gate="G$1" pin="+3V3"/>
+</segment>
 </net>
 <net name="SCK" class="0">
 <segment>
@@ -11222,8 +11237,8 @@ Humidity+Ambient Temp</text>
 <wire x1="45.72" y1="10.16" x2="50.8" y2="10.16" width="0.1524" layer="91"/>
 <junction x="45.72" y="10.16"/>
 <pinref part="IC1" gate="G$1" pin="SCK"/>
-<pinref part="R1" gate="G$1" pin="2"/>
-<pinref part="D1" gate="G$1" pin="A"/>
+<pinref part="R2" gate="G$1" pin="2"/>
+<pinref part="D2" gate="G$1" pin="A"/>
 </segment>
 <segment>
 <pinref part="CON1" gate="G$1" pin="1"/>
@@ -11234,6 +11249,11 @@ Humidity+Ambient Temp</text>
 <pinref part="JP2" gate="G$1" pin="10"/>
 <wire x1="220.98" y1="20.32" x2="210.82" y2="20.32" width="0.1524" layer="91"/>
 <label x="210.82" y="20.32" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="JP3" gate="G$1" pin="10"/>
+<wire x1="266.7" y1="20.32" x2="256.54" y2="20.32" width="0.1524" layer="91"/>
+<label x="256.54" y="20.32" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="N$1" class="0">
@@ -11248,7 +11268,7 @@ Humidity+Ambient Temp</text>
 <net name="N$4" class="0">
 <segment>
 <pinref part="FB1" gate="G$1" pin="P$2"/>
-<pinref part="C3" gate="G$1" pin="P$1"/>
+<pinref part="C1" gate="G$1" pin="P$1"/>
 <wire x1="-17.78" y1="20.32" x2="-12.7" y2="20.32" width="0.1524" layer="91"/>
 <wire x1="-12.7" y1="20.32" x2="-12.7" y2="17.78" width="0.1524" layer="91"/>
 <wire x1="-12.7" y1="20.32" x2="-2.54" y2="20.32" width="0.1524" layer="91"/>
@@ -11269,7 +11289,7 @@ Humidity+Ambient Temp</text>
 <net name="N$6" class="0">
 <segment>
 <pinref part="FB2" gate="G$1" pin="P$2"/>
-<pinref part="C3" gate="G$1" pin="P$2"/>
+<pinref part="C1" gate="G$1" pin="P$2"/>
 <wire x1="-17.78" y1="7.62" x2="-12.7" y2="7.62" width="0.1524" layer="91"/>
 <wire x1="-12.7" y1="7.62" x2="-12.7" y2="10.16" width="0.1524" layer="91"/>
 <wire x1="-12.7" y1="7.62" x2="-2.54" y2="7.62" width="0.1524" layer="91"/>
@@ -11313,6 +11333,11 @@ Humidity+Ambient Temp</text>
 <pinref part="IC1" gate="G$1" pin="DO"/>
 <label x="91.44" y="2.54" size="1.778" layer="95"/>
 </segment>
+<segment>
+<pinref part="JP3" gate="G$1" pin="4"/>
+<wire x1="266.7" y1="35.56" x2="256.54" y2="35.56" width="0.1524" layer="91"/>
+<label x="256.54" y="35.56" size="1.778" layer="95"/>
+</segment>
 </net>
 <net name="MISO" class="0">
 <segment>
@@ -11324,6 +11349,11 @@ Humidity+Ambient Temp</text>
 <pinref part="JP2" gate="G$1" pin="8"/>
 <wire x1="220.98" y1="25.4" x2="210.82" y2="25.4" width="0.1524" layer="91"/>
 <label x="210.82" y="25.4" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="JP3" gate="G$1" pin="8"/>
+<wire x1="266.7" y1="25.4" x2="256.54" y2="25.4" width="0.1524" layer="91"/>
+<label x="256.54" y="25.4" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="MOSI" class="0">
@@ -11337,6 +11367,11 @@ Humidity+Ambient Temp</text>
 <wire x1="220.98" y1="22.86" x2="210.82" y2="22.86" width="0.1524" layer="91"/>
 <label x="210.82" y="22.86" size="1.778" layer="95"/>
 </segment>
+<segment>
+<pinref part="JP3" gate="G$1" pin="9"/>
+<wire x1="266.7" y1="22.86" x2="256.54" y2="22.86" width="0.1524" layer="91"/>
+<label x="256.54" y="22.86" size="1.778" layer="95"/>
+</segment>
 </net>
 <net name="VIN" class="0">
 <segment>
@@ -11348,6 +11383,11 @@ Humidity+Ambient Temp</text>
 <pinref part="JP2" gate="G$1" pin="1"/>
 <wire x1="220.98" y1="43.18" x2="210.82" y2="43.18" width="0.1524" layer="91"/>
 <label x="210.82" y="43.18" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="JP3" gate="G$1" pin="1"/>
+<wire x1="266.7" y1="43.18" x2="256.54" y2="43.18" width="0.1524" layer="91"/>
+<label x="256.54" y="43.18" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="DIO-0" class="0">
@@ -11365,8 +11405,13 @@ Humidity+Ambient Temp</text>
 <wire x1="55.88" y1="10.16" x2="58.42" y2="10.16" width="0.1524" layer="91"/>
 <wire x1="58.42" y1="10.16" x2="58.42" y2="-2.54" width="0.1524" layer="91"/>
 <wire x1="58.42" y1="-2.54" x2="91.44" y2="-2.54" width="0.1524" layer="91"/>
-<pinref part="D1" gate="G$1" pin="C"/>
+<pinref part="D2" gate="G$1" pin="C"/>
 <label x="91.44" y="-2.54" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="JP3" gate="G$1" pin="6"/>
+<wire x1="266.7" y1="30.48" x2="256.54" y2="30.48" width="0.1524" layer="91"/>
+<label x="256.54" y="30.48" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="DIO-1" class="0">
@@ -11389,6 +11434,11 @@ Humidity+Ambient Temp</text>
 <wire x1="143.51" y1="-48.26" x2="151.13" y2="-48.26" width="0.1524" layer="91"/>
 <junction x="143.51" y="-48.26"/>
 </segment>
+<segment>
+<pinref part="JP3" gate="G$1" pin="7"/>
+<wire x1="266.7" y1="27.94" x2="256.54" y2="27.94" width="0.1524" layer="91"/>
+<label x="256.54" y="27.94" size="1.778" layer="95"/>
+</segment>
 </net>
 <net name="AIO-1" class="0">
 <segment>
@@ -11405,8 +11455,13 @@ Humidity+Ambient Temp</text>
 <wire x1="55.88" y1="12.7" x2="60.96" y2="12.7" width="0.1524" layer="91"/>
 <wire x1="60.96" y1="12.7" x2="60.96" y2="0" width="0.1524" layer="91"/>
 <wire x1="60.96" y1="0" x2="91.44" y2="0" width="0.1524" layer="91"/>
-<pinref part="D2" gate="G$1" pin="C"/>
+<pinref part="D1" gate="G$1" pin="C"/>
 <label x="91.44" y="0" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="JP3" gate="G$1" pin="5"/>
+<wire x1="266.7" y1="33.02" x2="256.54" y2="33.02" width="0.1524" layer="91"/>
+<label x="256.54" y="33.02" size="1.778" layer="95"/>
 </segment>
 </net>
 </nets>
