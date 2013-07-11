@@ -21116,11 +21116,11 @@ Push-push type uSD socket. Schematic element and footprint production proven. Sp
 <part name="GND10" library="SparkFun" deviceset="GND" device=""/>
 <part name="RN1" library="resistor-net" deviceset="RNX7" device=""/>
 <part name="JP3" library="SparkFun-Connectors" deviceset="M08" device="LOCK"/>
-<part name="U1" library="SparkFunNew" deviceset="USD-SOCKET" device="MICRO-SD-SOCKET-TAOBAO" value="USD-SOCKETMICRO-SD-SOCKET-TAOBAO"/>
-<part name="GND5" library="SparkFun" deviceset="GND" device=""/>
-<part name="+3V3" library="supply1" deviceset="VCC" device=""/>
 <part name="JP4" library="SparkFun-Connectors" deviceset="M10" device="LOCK"/>
 <part name="CN1" library="adafruit" deviceset="JST_2PIN" device="-THM-RA"/>
+<part name="U2" library="SparkFunNew" deviceset="USD-SOCKET" device="MICRO-SD-SOCKET-TAOBAO" value="USD-SOCKETMICRO-SD-SOCKET-TAOBAO"/>
+<part name="GND3" library="SparkFun" deviceset="GND" device=""/>
+<part name="+3V1" library="supply1" deviceset="VCC" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -21133,7 +21133,7 @@ Push-push type uSD socket. Schematic element and footprint production proven. Sp
 <text x="0" y="-2.54" size="3.81" layer="91">Breakout</text>
 <text x="127" y="76.2" size="3.81" layer="91">Ethernet</text>
 <text x="0" y="-124.46" size="3.81" layer="91">RTC</text>
-<text x="91.44" y="-93.98" size="3.81" layer="91">uSD</text>
+<text x="168.91" y="-99.06" size="5.08" layer="91">uSD</text>
 </plain>
 <instances>
 <instance part="IC1" gate="1" x="-88.9" y="25.4"/>
@@ -21243,11 +21243,11 @@ Push-push type uSD socket. Schematic element and footprint production proven. Sp
 <instance part="RN1" gate="-4" x="8.89" y="-152.4" rot="MR270"/>
 <instance part="RN1" gate="-5" x="8.89" y="-157.48" rot="MR90"/>
 <instance part="JP3" gate="G$1" x="35.56" y="-25.4"/>
-<instance part="U1" gate="G$1" x="104.14" y="-123.19"/>
-<instance part="GND5" gate="1" x="96.52" y="-143.51"/>
-<instance part="+3V3" gate="VCC" x="95.25" y="-105.41"/>
 <instance part="JP4" gate="G$1" x="-10.16" y="-17.78"/>
 <instance part="CN1" gate="G$1" x="-43.18" y="-91.44"/>
+<instance part="U2" gate="G$1" x="166.37" y="-123.19"/>
+<instance part="GND3" gate="1" x="158.75" y="-143.51"/>
+<instance part="+3V1" gate="VCC" x="157.48" y="-105.41"/>
 </instances>
 <busses>
 </busses>
@@ -21412,27 +21412,27 @@ Push-push type uSD socket. Schematic element and footprint production proven. Sp
 <label x="45.72" y="-20.32" size="1.778" layer="95"/>
 </segment>
 <segment>
-<pinref part="U1" gate="G$1" pin="SHIELD@1"/>
-<pinref part="U1" gate="G$1" pin="SHIELD@2"/>
-<wire x1="96.52" y1="-133.35" x2="96.52" y2="-135.89" width="0.1524" layer="91"/>
-<pinref part="U1" gate="G$1" pin="SHIELD@3"/>
-<wire x1="96.52" y1="-135.89" x2="96.52" y2="-138.43" width="0.1524" layer="91"/>
-<junction x="96.52" y="-135.89"/>
-<pinref part="U1" gate="G$1" pin="SHIELD@4"/>
-<wire x1="96.52" y1="-138.43" x2="96.52" y2="-140.97" width="0.1524" layer="91"/>
-<junction x="96.52" y="-138.43"/>
-<pinref part="GND5" gate="1" pin="GND"/>
-<junction x="96.52" y="-140.97"/>
-<pinref part="U1" gate="G$1" pin="GND"/>
-<wire x1="96.52" y1="-123.19" x2="95.25" y2="-123.19" width="0.1524" layer="91"/>
-<wire x1="95.25" y1="-123.19" x2="95.25" y2="-133.35" width="0.1524" layer="91"/>
-<wire x1="95.25" y1="-133.35" x2="96.52" y2="-133.35" width="0.1524" layer="91"/>
-<junction x="96.52" y="-133.35"/>
-</segment>
-<segment>
 <pinref part="JP4" gate="G$1" pin="1"/>
 <wire x1="0" y1="-35.56" x2="7.62" y2="-35.56" width="0.1524" layer="91"/>
 <label x="7.62" y="-35.56" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="U2" gate="G$1" pin="SHIELD@1"/>
+<pinref part="U2" gate="G$1" pin="SHIELD@2"/>
+<wire x1="158.75" y1="-133.35" x2="158.75" y2="-135.89" width="0.1524" layer="91"/>
+<pinref part="U2" gate="G$1" pin="SHIELD@3"/>
+<wire x1="158.75" y1="-135.89" x2="158.75" y2="-138.43" width="0.1524" layer="91"/>
+<junction x="158.75" y="-135.89"/>
+<pinref part="U2" gate="G$1" pin="SHIELD@4"/>
+<wire x1="158.75" y1="-138.43" x2="158.75" y2="-140.97" width="0.1524" layer="91"/>
+<junction x="158.75" y="-138.43"/>
+<pinref part="GND3" gate="1" pin="GND"/>
+<junction x="158.75" y="-140.97"/>
+<pinref part="U2" gate="G$1" pin="GND"/>
+<wire x1="158.75" y1="-123.19" x2="157.48" y2="-123.19" width="0.1524" layer="91"/>
+<wire x1="157.48" y1="-123.19" x2="157.48" y2="-133.35" width="0.1524" layer="91"/>
+<wire x1="157.48" y1="-133.35" x2="158.75" y2="-133.35" width="0.1524" layer="91"/>
+<junction x="158.75" y="-133.35"/>
 </segment>
 </net>
 <net name="N$19" class="0">
@@ -21555,15 +21555,15 @@ Push-push type uSD socket. Schematic element and footprint production proven. Sp
 <pinref part="RN1" gate="-4" pin="1"/>
 </segment>
 <segment>
-<pinref part="U1" gate="G$1" pin="VCC"/>
-<wire x1="96.52" y1="-118.11" x2="95.25" y2="-118.11" width="0.1524" layer="91"/>
-<wire x1="95.25" y1="-118.11" x2="95.25" y2="-107.95" width="0.1524" layer="91"/>
-<pinref part="+3V3" gate="VCC" pin="VCC"/>
-</segment>
-<segment>
 <pinref part="JP3" gate="G$1" pin="8"/>
 <wire x1="40.64" y1="-15.24" x2="45.72" y2="-15.24" width="0.1524" layer="91"/>
 <label x="45.72" y="-15.24" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="U2" gate="G$1" pin="VCC"/>
+<wire x1="158.75" y1="-118.11" x2="157.48" y2="-118.11" width="0.1524" layer="91"/>
+<wire x1="157.48" y1="-118.11" x2="157.48" y2="-107.95" width="0.1524" layer="91"/>
+<pinref part="+3V1" gate="VCC" pin="VCC"/>
 </segment>
 </net>
 <net name="A1" class="0">
@@ -21609,9 +21609,9 @@ Push-push type uSD socket. Schematic element and footprint production proven. Sp
 <label x="45.72" y="-33.02" size="1.778" layer="95"/>
 </segment>
 <segment>
-<wire x1="91.44" y1="-120.65" x2="96.52" y2="-120.65" width="0.1524" layer="91"/>
-<label x="86.36" y="-120.65" size="1.4224" layer="95"/>
-<pinref part="U1" gate="G$1" pin="SCK"/>
+<pinref part="U2" gate="G$1" pin="SCK"/>
+<wire x1="158.75" y1="-120.65" x2="143.51" y2="-120.65" width="0.1524" layer="91"/>
+<label x="143.51" y="-120.65" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="MISO/D12" class="0">
@@ -21646,9 +21646,9 @@ Push-push type uSD socket. Schematic element and footprint production proven. Sp
 <label x="45.72" y="-30.48" size="1.778" layer="95"/>
 </segment>
 <segment>
-<wire x1="85.09" y1="-125.73" x2="96.52" y2="-125.73" width="0.1524" layer="91"/>
-<label x="83.82" y="-125.73" size="1.4224" layer="95"/>
-<pinref part="U1" gate="G$1" pin="DO"/>
+<pinref part="U2" gate="G$1" pin="DO"/>
+<wire x1="158.75" y1="-125.73" x2="149.86" y2="-125.73" width="0.1524" layer="91"/>
+<label x="143.51" y="-125.73" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="MOSI/D11" class="0">
@@ -21683,9 +21683,9 @@ Push-push type uSD socket. Schematic element and footprint production proven. Sp
 <label x="45.72" y="-27.94" size="1.778" layer="95"/>
 </segment>
 <segment>
-<wire x1="87.63" y1="-115.57" x2="96.52" y2="-115.57" width="0.1524" layer="91"/>
-<label x="83.82" y="-115.57" size="1.4224" layer="95"/>
-<pinref part="U1" gate="G$1" pin="DI"/>
+<pinref part="U2" gate="G$1" pin="DI"/>
+<wire x1="158.75" y1="-115.57" x2="149.86" y2="-115.57" width="0.1524" layer="91"/>
+<label x="142.24" y="-115.57" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="D2" class="0">
@@ -21872,14 +21872,14 @@ Push-push type uSD socket. Schematic element and footprint production proven. Sp
 <wire x1="-58.42" y1="12.7" x2="-48.26" y2="12.7" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<pinref part="U1" gate="G$1" pin="CS"/>
-<wire x1="96.52" y1="-113.03" x2="87.63" y2="-113.03" width="0.1524" layer="91"/>
-<label x="88.9" y="-113.03" size="1.778" layer="95"/>
-</segment>
-<segment>
 <pinref part="JP4" gate="G$1" pin="4"/>
 <wire x1="0" y1="-27.94" x2="7.62" y2="-27.94" width="0.1524" layer="91"/>
 <label x="7.62" y="-27.94" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="U2" gate="G$1" pin="CS"/>
+<wire x1="158.75" y1="-113.03" x2="149.86" y2="-113.03" width="0.1524" layer="91"/>
+<label x="151.13" y="-113.03" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="PB1/D9/PWM" class="0">
