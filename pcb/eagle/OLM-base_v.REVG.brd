@@ -157,26 +157,6 @@
 <text x="72.644" y="3.556" size="1.016" layer="21" rot="R90">olm2</text>
 <text x="35.052" y="53.086" size="1.016" layer="21" rot="R270">RESET</text>
 <text x="23.368" y="51.308" size="1.016" layer="21" rot="R90">A0</text>
-<text x="87.122" y="9.398" size="0.8128" layer="16" rot="MR270">VIN</text>
-<text x="84.836" y="9.652" size="0.8128" layer="16" rot="MR270">GND</text>
-<text x="82.042" y="9.652" size="0.8128" layer="16" rot="MR270">VCC</text>
-<text x="79.502" y="9.144" size="0.8128" layer="16" rot="MR270">A2</text>
-<text x="77.216" y="9.144" size="0.8128" layer="16" rot="MR270">A3</text>
-<text x="87.376" y="2.286" size="0.8128" layer="16" rot="MR270">D8</text>
-<text x="84.836" y="2.286" size="0.8128" layer="16" rot="MR270">D9</text>
-<text x="82.296" y="2.286" size="0.8128" layer="16" rot="MR270">SO</text>
-<text x="79.756" y="2.286" size="0.8128" layer="16" rot="MR270">SI</text>
-<text x="76.2" y="0.254" size="0.8128" layer="16" rot="MR90">SCK</text>
-<text x="77.216" y="56.896" size="0.8128" layer="16" rot="MR270">D5</text>
-<text x="79.502" y="57.404" size="0.8128" layer="16" rot="MR270">D10</text>
-<text x="82.042" y="56.896" size="0.8128" layer="16" rot="MR270">SO</text>
-<text x="84.582" y="56.642" size="0.8128" layer="16" rot="MR270">SI</text>
-<text x="86.614" y="55.372" size="0.8128" layer="16" rot="MR90">SCK</text>
-<text x="76.962" y="49.53" size="0.8128" layer="16" rot="MR270">VIN</text>
-<text x="79.756" y="49.784" size="0.8128" layer="16" rot="MR270">GND</text>
-<text x="82.296" y="49.784" size="0.8128" layer="16" rot="MR270">VCC</text>
-<text x="84.836" y="49.784" size="0.8128" layer="16" rot="MR270">A0</text>
-<text x="87.376" y="49.784" size="0.8128" layer="16" rot="MR270">A1</text>
 </plain>
 <libraries>
 <library name="atmega8">
