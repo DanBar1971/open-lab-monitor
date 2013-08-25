@@ -24819,7 +24819,7 @@ We've spent an enormous amount of time creating and checking these footprints an
 <part name="R5" library="adafruit" deviceset="R-US_" device="R0805" value="1K"/>
 <part name="GND21" library="supply1" deviceset="GND" device=""/>
 <part name="GND24" library="supply1" deviceset="GND" device=""/>
-<part name="BATT" library="adafruit" deviceset="JST_2PIN" device="-SMT-RA"/>
+<part name="BATT3V7" library="adafruit" deviceset="JST_2PIN" device="-SMT-RA"/>
 <part name="GND25" library="supply1" deviceset="GND" device=""/>
 <part name="R8" library="adafruit" deviceset="R-US_" device="FLIPFLOP" value="2K"/>
 <part name="R10" library="adafruit" deviceset="R-US_" device="R0805" value="100K"/>
@@ -25084,7 +25084,7 @@ We've spent an enormous amount of time creating and checking these footprints an
 <instance part="R5" gate="G$1" x="91.44" y="308.61" rot="R90"/>
 <instance part="GND21" gate="1" x="185.42" y="250.19"/>
 <instance part="GND24" gate="1" x="185.42" y="283.21"/>
-<instance part="BATT" gate="G$1" x="205.74" y="275.59" rot="MR180"/>
+<instance part="BATT3V7" gate="G$1" x="205.74" y="275.59" rot="MR180"/>
 <instance part="GND25" gate="1" x="195.58" y="270.51"/>
 <instance part="R8" gate="G$1" x="104.14" y="260.35" rot="R90"/>
 <instance part="R10" gate="G$1" x="111.76" y="257.81" rot="R90"/>
@@ -25440,7 +25440,7 @@ We've spent an enormous amount of time creating and checking these footprints an
 </segment>
 <segment>
 <wire x1="195.58" y1="273.05" x2="203.2" y2="273.05" width="0.1524" layer="91"/>
-<pinref part="BATT" gate="G$1" pin="1"/>
+<pinref part="BATT3V7" gate="G$1" pin="1"/>
 <pinref part="GND25" gate="1" pin="GND"/>
 </segment>
 <segment>
@@ -26838,7 +26838,7 @@ We've spent an enormous amount of time creating and checking these footprints an
 <junction x="185.42" y="275.59"/>
 <junction x="154.94" y="278.13"/>
 <junction x="154.94" y="275.59"/>
-<pinref part="BATT" gate="G$1" pin="2"/>
+<pinref part="BATT3V7" gate="G$1" pin="2"/>
 <pinref part="IC3" gate="G$1" pin="VBAT1"/>
 <pinref part="IC3" gate="G$1" pin="VBAT2"/>
 <pinref part="IC3" gate="G$1" pin="VBAT3"/>
