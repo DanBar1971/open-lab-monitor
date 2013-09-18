@@ -22890,7 +22890,7 @@ This library includes the former libraries ribcon.lbr and ribcon4.lbr.&lt;p&gt;
 <part name="+3V25" library="supply1" deviceset="+3V3" device=""/>
 <part name="BKOUT" library="SparkFun-Connectors" deviceset="M08" device="LOCK"/>
 <part name="U$2" library="microbuilder" deviceset="GND" device=""/>
-<part name="U1" library="SparkFunNew" deviceset="USD-SOCKET" device="MICRO-SD-SOCKET-TAOBAO" value="USD-SOCKETMICRO-SD-SOCKET-TAOBAO"/>
+<part name="MICROSD" library="SparkFunNew" deviceset="USD-SOCKET" device="MICRO-SD-SOCKET-TAOBAO" value="USD-SOCKETMICRO-SD-SOCKET-TAOBAO"/>
 <part name="GND13" library="SparkFun" deviceset="GND" device=""/>
 <part name="+3V27" library="supply1" deviceset="+3V3" device=""/>
 <part name="R14" library="adafruit" deviceset="R-US_" device="R0805" value="1k"/>
@@ -23164,7 +23164,7 @@ This library includes the former libraries ribcon.lbr and ribcon4.lbr.&lt;p&gt;
 <instance part="+3V25" gate="G$1" x="220.98" y="172.72" rot="MR0"/>
 <instance part="BKOUT" gate="G$1" x="508" y="148.59"/>
 <instance part="U$2" gate="G$1" x="339.09" y="53.34" rot="R90"/>
-<instance part="U1" gate="G$1" x="519.43" y="-90.17"/>
+<instance part="MICROSD" gate="G$1" x="519.43" y="-90.17"/>
 <instance part="GND13" gate="1" x="511.81" y="-110.49"/>
 <instance part="+3V27" gate="G$1" x="510.54" y="-72.39"/>
 <instance part="R14" gate="G$1" x="491.49" y="-87.63"/>
@@ -23612,18 +23612,18 @@ This library includes the former libraries ribcon.lbr and ribcon4.lbr.&lt;p&gt;
 <pinref part="U$2" gate="G$1" pin="GND"/>
 </segment>
 <segment>
-<pinref part="U1" gate="G$1" pin="SHIELD@1"/>
-<pinref part="U1" gate="G$1" pin="SHIELD@2"/>
+<pinref part="MICROSD" gate="G$1" pin="SHIELD@1"/>
+<pinref part="MICROSD" gate="G$1" pin="SHIELD@2"/>
 <wire x1="511.81" y1="-100.33" x2="511.81" y2="-102.87" width="0.1524" layer="91"/>
-<pinref part="U1" gate="G$1" pin="SHIELD@3"/>
+<pinref part="MICROSD" gate="G$1" pin="SHIELD@3"/>
 <wire x1="511.81" y1="-102.87" x2="511.81" y2="-105.41" width="0.1524" layer="91"/>
 <junction x="511.81" y="-102.87"/>
-<pinref part="U1" gate="G$1" pin="SHIELD@4"/>
+<pinref part="MICROSD" gate="G$1" pin="SHIELD@4"/>
 <wire x1="511.81" y1="-105.41" x2="511.81" y2="-107.95" width="0.1524" layer="91"/>
 <junction x="511.81" y="-105.41"/>
 <pinref part="GND13" gate="1" pin="GND"/>
 <junction x="511.81" y="-107.95"/>
-<pinref part="U1" gate="G$1" pin="GND"/>
+<pinref part="MICROSD" gate="G$1" pin="GND"/>
 <wire x1="511.81" y1="-90.17" x2="510.54" y2="-90.17" width="0.1524" layer="91"/>
 <wire x1="510.54" y1="-90.17" x2="510.54" y2="-100.33" width="0.1524" layer="91"/>
 <wire x1="510.54" y1="-100.33" x2="511.81" y2="-100.33" width="0.1524" layer="91"/>
@@ -23727,7 +23727,7 @@ This library includes the former libraries ribcon.lbr and ribcon4.lbr.&lt;p&gt;
 <label x="441.96" y="50.8" size="1.778" layer="95"/>
 </segment>
 <segment>
-<pinref part="U1" gate="G$1" pin="DI"/>
+<pinref part="MICROSD" gate="G$1" pin="DI"/>
 <wire x1="511.81" y1="-82.55" x2="502.92" y2="-82.55" width="0.1524" layer="91"/>
 <label x="504.19" y="-82.55" size="1.778" layer="95"/>
 </segment>
@@ -23777,7 +23777,7 @@ This library includes the former libraries ribcon.lbr and ribcon4.lbr.&lt;p&gt;
 <label x="407.67" y="48.26" size="1.778" layer="95"/>
 </segment>
 <segment>
-<pinref part="U1" gate="G$1" pin="DO"/>
+<pinref part="MICROSD" gate="G$1" pin="DO"/>
 <wire x1="511.81" y1="-92.71" x2="502.92" y2="-92.71" width="0.1524" layer="91"/>
 <label x="504.19" y="-92.71" size="1.778" layer="95"/>
 </segment>
@@ -23826,7 +23826,7 @@ This library includes the former libraries ribcon.lbr and ribcon4.lbr.&lt;p&gt;
 <label x="406.4" y="50.8" size="1.778" layer="95"/>
 </segment>
 <segment>
-<pinref part="U1" gate="G$1" pin="SCK"/>
+<pinref part="MICROSD" gate="G$1" pin="SCK"/>
 <wire x1="511.81" y1="-87.63" x2="502.92" y2="-87.63" width="0.1524" layer="91"/>
 <label x="504.19" y="-87.63" size="1.778" layer="95"/>
 </segment>
@@ -24029,7 +24029,7 @@ This library includes the former libraries ribcon.lbr and ribcon4.lbr.&lt;p&gt;
 <pinref part="+3V25" gate="G$1" pin="+3V3"/>
 </segment>
 <segment>
-<pinref part="U1" gate="G$1" pin="VCC"/>
+<pinref part="MICROSD" gate="G$1" pin="VCC"/>
 <wire x1="511.81" y1="-85.09" x2="510.54" y2="-85.09" width="0.1524" layer="91"/>
 <wire x1="510.54" y1="-85.09" x2="510.54" y2="-74.93" width="0.1524" layer="91"/>
 <pinref part="+3V27" gate="G$1" pin="+3V3"/>
@@ -24902,7 +24902,7 @@ This library includes the former libraries ribcon.lbr and ribcon4.lbr.&lt;p&gt;
 <label x="157.48" y="-33.02" size="1.778" layer="95"/>
 </segment>
 <segment>
-<pinref part="U1" gate="G$1" pin="CS"/>
+<pinref part="MICROSD" gate="G$1" pin="CS"/>
 <wire x1="511.81" y1="-80.01" x2="496.57" y2="-80.01" width="0.1524" layer="91"/>
 <label x="495.3" y="-78.74" size="1.778" layer="95"/>
 </segment>
