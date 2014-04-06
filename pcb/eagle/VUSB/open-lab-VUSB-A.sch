@@ -21208,6 +21208,7 @@ chip</description>
 <part name="U$4" library="microbuilder" deviceset="GND" device=""/>
 <part name="P+18" library="supply1" deviceset="VCC" device=""/>
 <part name="C6" library="resistor" deviceset="C-EU" device="C0805" value=".1u"/>
+<part name="P+17" library="supply1" deviceset="VCC" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -21455,6 +21456,7 @@ chip</description>
 <attribute name="NAME" x="262.636" y="-8.509" size="1.778" layer="95"/>
 <attribute name="VALUE" x="265.938" y="-11.811" size="1.778" layer="96" rot="R180"/>
 </instance>
+<instance part="P+17" gate="VCC" x="308.102" y="4.572"/>
 </instances>
 <busses>
 </busses>
@@ -21985,6 +21987,13 @@ chip</description>
 <pinref part="P+18" gate="VCC" pin="VCC"/>
 <wire x1="266.192" y1="-2.794" x2="266.192" y2="-6.35" width="0.1524" layer="91"/>
 <pinref part="C6" gate="G$1" pin="1"/>
+</segment>
+<segment>
+<pinref part="U$1" gate="G$1" pin="XCLR"/>
+<wire x1="301.752" y1="-3.556" x2="308.102" y2="-3.556" width="0.1524" layer="91"/>
+<label x="307.34" y="-3.048" size="1.778" layer="95"/>
+<wire x1="308.102" y1="-3.556" x2="308.102" y2="2.032" width="0.1524" layer="91"/>
+<pinref part="P+17" gate="VCC" pin="VCC"/>
 </segment>
 </net>
 <net name="AREF" class="0">
@@ -22655,13 +22664,6 @@ chip</description>
 <wire x1="249.682" y1="149.606" x2="251.968" y2="149.606" width="0.1524" layer="91"/>
 <wire x1="249.682" y1="149.606" x2="249.936" y2="158.75" width="0.1524" layer="91"/>
 <pinref part="ETHRESETS" gate="1" pin="2"/>
-</segment>
-</net>
-<net name="N$14" class="0">
-<segment>
-<pinref part="U$1" gate="G$1" pin="XCLR"/>
-<wire x1="301.752" y1="-3.556" x2="308.102" y2="-3.556" width="0.1524" layer="91"/>
-<label x="307.34" y="-3.048" size="1.778" layer="95"/>
 </segment>
 </net>
 </nets>
