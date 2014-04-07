@@ -22550,9 +22550,12 @@ chip</description>
 <net name="V_CON" class="0">
 <segment>
 <pinref part="Q2" gate="G$1" pin="D"/>
-<wire x1="145.796" y1="138.43" x2="145.796" y2="133.35" width="0.1524" layer="91"/>
-<label x="146.05" y="135.128" size="1.778" layer="95"/>
+<wire x1="145.796" y1="138.43" x2="145.796" y2="134.62" width="0.1524" layer="91"/>
+<label x="156.972" y="134.874" size="1.778" layer="95"/>
 <pinref part="RM4" gate="G$1" pin="2"/>
+<wire x1="145.796" y1="134.62" x2="145.796" y2="133.35" width="0.1524" layer="91"/>
+<wire x1="145.796" y1="134.62" x2="155.956" y2="134.62" width="0.1524" layer="91"/>
+<wire x1="155.956" y1="134.62" x2="155.956" y2="134.874" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="N5110" gate="1" pin="6"/>
