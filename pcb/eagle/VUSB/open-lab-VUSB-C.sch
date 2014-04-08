@@ -23023,6 +23023,13 @@ http://www.semiconductors.philips.com/acrobat_download/datasheets/PCF8574_4.pdf<
 <pinref part="IC5" gate="G$1" pin="A2"/>
 <wire x1="-25.4" y1="-63.5" x2="-28.194" y2="-63.5" width="0.1524" layer="91"/>
 <wire x1="-28.194" y1="-63.5" x2="-28.194" y2="-79.502" width="0.1524" layer="91"/>
+<pinref part="IC5" gate="G$1" pin="A1"/>
+<wire x1="-25.4" y1="-60.96" x2="-28.194" y2="-60.96" width="0.1524" layer="91"/>
+<wire x1="-28.194" y1="-60.96" x2="-28.194" y2="-61.214" width="0.1524" layer="91"/>
+<pinref part="IC5" gate="G$1" pin="A0"/>
+<wire x1="-28.194" y1="-61.214" x2="-28.194" y2="-63.5" width="0.1524" layer="91"/>
+<wire x1="-25.4" y1="-58.42" x2="-28.194" y2="-58.42" width="0.1524" layer="91"/>
+<wire x1="-28.194" y1="-58.42" x2="-28.194" y2="-60.96" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="SV1" gate="G$1" pin="14"/>
