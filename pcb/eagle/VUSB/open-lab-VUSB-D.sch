@@ -8259,88 +8259,6 @@ Push-push type uSD socket. Schematic element and footprint production proven. Sp
 </deviceset>
 </devicesets>
 </library>
-<library name="transistor-small-signal">
-<packages>
-<package name="SOT23">
-<description>&lt;b&gt;SOT-23&lt;/b&gt;</description>
-<wire x1="1.4224" y1="0.6604" x2="1.4224" y2="-0.6604" width="0.1524" layer="51"/>
-<wire x1="1.4224" y1="-0.6604" x2="-1.4224" y2="-0.6604" width="0.1524" layer="51"/>
-<wire x1="-1.4224" y1="-0.6604" x2="-1.4224" y2="0.6604" width="0.1524" layer="51"/>
-<wire x1="-1.4224" y1="0.6604" x2="1.4224" y2="0.6604" width="0.1524" layer="51"/>
-<smd name="3" x="0" y="1.1" dx="1" dy="1.4" layer="1"/>
-<smd name="2" x="0.95" y="-1.1" dx="1" dy="1.4" layer="1"/>
-<smd name="1" x="-0.95" y="-1.1" dx="1" dy="1.4" layer="1"/>
-<text x="-1.905" y="1.905" size="1.27" layer="25">&gt;NAME</text>
-<text x="-1.905" y="-3.175" size="1.27" layer="27">&gt;VALUE</text>
-<rectangle x1="-0.2286" y1="0.7112" x2="0.2286" y2="1.2954" layer="51"/>
-<rectangle x1="0.7112" y1="-1.2954" x2="1.1684" y2="-0.7112" layer="51"/>
-<rectangle x1="-1.1684" y1="-1.2954" x2="-0.7112" y2="-0.7112" layer="51"/>
-</package>
-</packages>
-<symbols>
-<symbol name="N-MOS">
-<wire x1="-1.27" y1="0" x2="-0.254" y2="0.381" width="0.1524" layer="94"/>
-<wire x1="-0.254" y1="0.381" x2="-0.254" y2="-0.381" width="0.1524" layer="94"/>
-<wire x1="-0.254" y1="-0.381" x2="-1.27" y2="0" width="0.1524" layer="94"/>
-<wire x1="-1.27" y1="0" x2="-1.016" y2="0" width="0.1524" layer="94"/>
-<wire x1="-1.016" y1="0" x2="-0.889" y2="0" width="0.1524" layer="94"/>
-<wire x1="-0.889" y1="0" x2="0" y2="0" width="0.1524" layer="94"/>
-<wire x1="0" y1="0" x2="0" y2="-2.032" width="0.1524" layer="94"/>
-<wire x1="0" y1="-2.032" x2="0" y2="-2.794" width="0.1524" layer="94"/>
-<wire x1="-1.524" y1="0" x2="-1.27" y2="0" width="0.1524" layer="94"/>
-<wire x1="-2.54" y1="2.54" x2="-2.54" y2="-2.54" width="0.254" layer="94"/>
-<wire x1="0" y1="3.048" x2="1.27" y2="3.048" width="0.1524" layer="94"/>
-<wire x1="1.27" y1="3.048" x2="1.27" y2="0.762" width="0.1524" layer="94"/>
-<wire x1="1.27" y1="0.762" x2="1.27" y2="0.508" width="0.1524" layer="94"/>
-<wire x1="1.27" y1="0.508" x2="1.27" y2="-2.794" width="0.1524" layer="94"/>
-<wire x1="1.27" y1="-2.794" x2="0" y2="-2.794" width="0.1524" layer="94"/>
-<wire x1="1.778" y1="0" x2="0.762" y2="0" width="0.1524" layer="94"/>
-<wire x1="0.762" y1="0" x2="1.27" y2="0.762" width="0.1524" layer="94"/>
-<wire x1="1.27" y1="0.762" x2="1.778" y2="0" width="0.1524" layer="94"/>
-<wire x1="1.778" y1="0.762" x2="0.762" y2="0.762" width="0.1524" layer="94"/>
-<wire x1="-1.524" y1="2.032" x2="0" y2="2.032" width="0.1524" layer="94"/>
-<wire x1="0" y1="2.032" x2="0" y2="2.54" width="0.1524" layer="94"/>
-<wire x1="-1.524" y1="-2.032" x2="0" y2="-2.032" width="0.1524" layer="94"/>
-<wire x1="-1.016" y1="0" x2="-0.381" y2="-0.254" width="0.254" layer="94"/>
-<wire x1="-0.381" y1="-0.254" x2="-0.381" y2="0.254" width="0.254" layer="94"/>
-<wire x1="-0.381" y1="0.254" x2="-0.889" y2="0" width="0.254" layer="94"/>
-<wire x1="1.27" y1="0.508" x2="1.016" y2="0.127" width="0.254" layer="94"/>
-<wire x1="1.016" y1="0.127" x2="1.524" y2="0.127" width="0.254" layer="94"/>
-<wire x1="1.524" y1="0.127" x2="1.27" y2="0.508" width="0.254" layer="94"/>
-<circle x="0" y="-2.794" radius="0.3592" width="0" layer="94"/>
-<circle x="0" y="-2.032" radius="0.3592" width="0" layer="94"/>
-<circle x="0" y="3.048" radius="0.3592" width="0" layer="94"/>
-<text x="2.54" y="0" size="1.778" layer="95">&gt;NAME</text>
-<text x="2.54" y="-2.54" size="1.778" layer="96">&gt;VALUE</text>
-<rectangle x1="-2.032" y1="1.27" x2="-1.524" y2="2.54" layer="94"/>
-<rectangle x1="-2.032" y1="-2.54" x2="-1.524" y2="-1.27" layer="94"/>
-<rectangle x1="-2.032" y1="-0.762" x2="-1.524" y2="0.762" layer="94"/>
-<pin name="G" x="-5.08" y="-2.54" visible="off" length="short" direction="pas"/>
-<pin name="D" x="0" y="5.08" visible="off" length="short" direction="pas" rot="R270"/>
-<pin name="S" x="0" y="-5.08" visible="off" length="short" direction="pas" rot="R90"/>
-</symbol>
-</symbols>
-<devicesets>
-<deviceset name="BSS123" prefix="Q">
-<description>&lt;b&gt;N-CHANNEL MOS FET&lt;/b&gt;</description>
-<gates>
-<gate name="G$1" symbol="N-MOS" x="0" y="0"/>
-</gates>
-<devices>
-<device name="" package="SOT23">
-<connects>
-<connect gate="G$1" pin="D" pad="3"/>
-<connect gate="G$1" pin="G" pad="1"/>
-<connect gate="G$1" pin="S" pad="2"/>
-</connects>
-<technologies>
-<technology name=""/>
-</technologies>
-</device>
-</devices>
-</deviceset>
-</devicesets>
-</library>
 <library name="resistor">
 <packages>
 <package name="C0402">
@@ -21481,15 +21399,92 @@ http://www.semiconductors.philips.com/acrobat_download/datasheets/PCF8574_4.pdf<
 </deviceset>
 </devicesets>
 </library>
+<library name="zetex">
+<packages>
+<package name="SOT-23">
+<description>&lt;b&gt;Small Outline Transistor&lt;/b&gt;</description>
+<wire x1="-1.4224" y1="0.381" x2="1.4732" y2="0.381" width="0.1524" layer="21"/>
+<wire x1="1.4732" y1="0.381" x2="1.4732" y2="-0.381" width="0.1524" layer="21"/>
+<wire x1="1.4732" y1="-0.381" x2="-1.4224" y2="-0.381" width="0.1524" layer="21"/>
+<wire x1="-1.4224" y1="-0.381" x2="-1.4224" y2="0.381" width="0.1524" layer="21"/>
+<smd name="3" x="0.9906" y="1.016" dx="0.7874" dy="0.889" layer="1"/>
+<smd name="2" x="-0.9398" y="1.016" dx="0.7874" dy="0.889" layer="1"/>
+<smd name="1" x="0.0254" y="-1.016" dx="0.7874" dy="0.889" layer="1"/>
+<text x="-1.397" y="1.778" size="1.27" layer="27" ratio="10">&gt;VALUE</text>
+<text x="-1.397" y="3.302" size="1.27" layer="25" ratio="10">&gt;NAME</text>
+<rectangle x1="0.7874" y1="0.4318" x2="1.1684" y2="0.9398" layer="51"/>
+<rectangle x1="-1.143" y1="0.4318" x2="-0.762" y2="0.9398" layer="51"/>
+<rectangle x1="-0.1778" y1="-0.9398" x2="0.2032" y2="-0.4318" layer="51"/>
+</package>
+</packages>
+<symbols>
+<symbol name="P_MOSFET">
+<wire x1="-1.651" y1="0" x2="0" y2="0" width="0.1524" layer="94"/>
+<wire x1="-1.524" y1="-2.159" x2="0" y2="-2.159" width="0.1524" layer="94"/>
+<wire x1="-2.54" y1="-2.54" x2="-2.54" y2="2.54" width="0.1524" layer="94"/>
+<wire x1="0" y1="0" x2="0" y2="-2.159" width="0.1524" layer="94"/>
+<wire x1="1.397" y1="-0.508" x2="1.397" y2="-3.048" width="0.1524" layer="94"/>
+<wire x1="1.397" y1="-3.048" x2="0" y2="-3.048" width="0.1524" layer="94"/>
+<wire x1="-1.524" y1="2.159" x2="0" y2="2.159" width="0.1524" layer="94"/>
+<wire x1="0" y1="2.159" x2="0" y2="2.54" width="0.1524" layer="94"/>
+<wire x1="0" y1="3.048" x2="1.397" y2="3.048" width="0.1524" layer="94"/>
+<wire x1="1.397" y1="3.048" x2="1.397" y2="0.381" width="0.1524" layer="94"/>
+<wire x1="0" y1="-2.159" x2="0" y2="-2.54" width="0.1524" layer="94"/>
+<text x="2.54" y="0" size="1.778" layer="96">&gt;VALUE</text>
+<text x="2.54" y="2.54" size="1.778" layer="95">&gt;NAME</text>
+<rectangle x1="-2.032" y1="1.397" x2="-1.524" y2="2.921" layer="94"/>
+<rectangle x1="-2.032" y1="-0.762" x2="-1.524" y2="0.762" layer="94"/>
+<rectangle x1="-2.032" y1="-2.921" x2="-1.524" y2="-1.397" layer="94"/>
+<rectangle x1="0.762" y1="-0.635" x2="2.032" y2="-0.508" layer="94"/>
+<pin name="D" x="0" y="5.08" visible="off" length="short" direction="pas" rot="R270"/>
+<pin name="S" x="0" y="-5.08" visible="off" length="short" direction="pas" rot="R90"/>
+<pin name="G" x="-5.08" y="-2.54" visible="off" length="short" direction="pas"/>
+<polygon width="0.1016" layer="94">
+<vertex x="-0.127" y="0"/>
+<vertex x="-1.143" y="-0.635"/>
+<vertex x="-1.143" y="0.635"/>
+</polygon>
+<polygon width="0.1016" layer="94">
+<vertex x="1.397" y="-0.508"/>
+<vertex x="0.762" y="0.508"/>
+<vertex x="2.032" y="0.508"/>
+</polygon>
+</symbol>
+</symbols>
+<devicesets>
+<deviceset name="PMOSSOT23" prefix="T" uservalue="yes">
+<description>&lt;b&gt;MOS FET&lt;/b&gt;</description>
+<gates>
+<gate name="A" symbol="P_MOSFET" x="0" y="0" swaplevel="1"/>
+</gates>
+<devices>
+<device name="" package="SOT-23">
+<connects>
+<connect gate="A" pin="D" pad="1"/>
+<connect gate="A" pin="G" pad="3"/>
+<connect gate="A" pin="S" pad="2"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+</devicesets>
+</library>
 </libraries>
 <attributes>
 </attributes>
 <variantdefs>
 </variantdefs>
 <classes>
-<class number="0" name="default" width="0.2032" drill="0">
+<class number="0" name="default" width="0.254" drill="0">
+<clearance class="0" value="0.254"/>
 </class>
 <class number="1" name="power" width="0.381" drill="0">
+</class>
+<class number="3" name="usbvcc" width="0.508" drill="0.6096">
+<clearance class="3" value="0.254"/>
 </class>
 </classes>
 <parts>
@@ -21590,22 +21585,22 @@ http://www.semiconductors.philips.com/acrobat_download/datasheets/PCF8574_4.pdf<
 <part name="P+18" library="supply1" deviceset="VCC" device=""/>
 <part name="C6" library="resistor" deviceset="C-EU" device="C0805" value=".1u"/>
 <part name="P+17" library="supply1" deviceset="VCC" device=""/>
-<part name="Q1" library="transistor-small-signal" deviceset="BSS123" device=""/>
 <part name="P+7" library="supply1" deviceset="VCC" device=""/>
-<part name="Q2" library="transistor-small-signal" deviceset="BSS123" device=""/>
 <part name="P+8" library="supply1" deviceset="VCC" device=""/>
 <part name="IC5" library="JeeLabs" deviceset="MCP23008" device="T" value="MCP23008"/>
 <part name="CEXP1" library="adafruit" deviceset="C-US" device="C0805K" value=".1uF"/>
 <part name="P+16" library="supply1" deviceset="VCC" device=""/>
 <part name="SUPPLY2" library="supply2" deviceset="GND" device=""/>
-<part name="Q3" library="transistor-small-signal" deviceset="BSS123" device=""/>
-<part name="P+19" library="supply1" deviceset="VCC" device=""/>
 <part name="GND12" library="supply1" deviceset="GND" device=""/>
 <part name="BTN1" library="adafruit" deviceset="EVQQ2" device="" value=""/>
 <part name="GND14" library="supply1" deviceset="GND" device=""/>
 <part name="BTN2" library="adafruit" deviceset="EVQQ2" device="" value=""/>
 <part name="SV2" library="con-lstb" deviceset="MA06-2" device=""/>
 <part name="SV1" library="con-lstb" deviceset="MA04-1" device=""/>
+<part name="T1" library="zetex" deviceset="PMOSSOT23" device="" value="FDN340P"/>
+<part name="P+3" library="supply1" deviceset="VCC" device=""/>
+<part name="T2" library="zetex" deviceset="PMOSSOT23" device="" value="FDN340P"/>
+<part name="T3" library="zetex" deviceset="PMOSSOT23" device="" value="FDN340P"/>
 </parts>
 <sheets>
 <sheet>
@@ -21826,28 +21821,22 @@ http://www.semiconductors.philips.com/acrobat_download/datasheets/PCF8574_4.pdf<
 <attribute name="VALUE" x="265.938" y="-11.811" size="1.778" layer="96" rot="R180"/>
 </instance>
 <instance part="P+17" gate="VCC" x="308.102" y="4.572"/>
-<instance part="Q1" gate="G$1" x="219.964" y="167.132" smashed="yes" rot="R270">
-<attribute name="NAME" x="219.964" y="163.322" size="1.778" layer="95" rot="R270"/>
-</instance>
 <instance part="P+7" gate="VCC" x="203.962" y="174.498"/>
-<instance part="Q2" gate="G$1" x="170.434" y="165.354" smashed="yes" rot="R270">
-<attribute name="NAME" x="170.434" y="161.544" size="1.778" layer="95" rot="R270"/>
-</instance>
 <instance part="P+8" gate="VCC" x="154.432" y="172.72"/>
 <instance part="IC5" gate="G$1" x="-15.24" y="-53.34"/>
 <instance part="CEXP1" gate="G$1" x="-42.418" y="-53.086"/>
 <instance part="P+16" gate="VCC" x="-42.418" y="-28.194"/>
 <instance part="SUPPLY2" gate="GND" x="-36.83" y="-82.042"/>
-<instance part="Q3" gate="G$1" x="167.894" y="144.78" smashed="yes" rot="R270">
-<attribute name="NAME" x="167.894" y="140.97" size="1.778" layer="95" rot="R270"/>
-</instance>
-<instance part="P+19" gate="VCC" x="151.892" y="152.146"/>
 <instance part="GND12" gate="1" x="171.45" y="21.844"/>
 <instance part="BTN1" gate="G$1" x="176.53" y="26.924" rot="R270"/>
 <instance part="GND14" gate="1" x="146.05" y="23.114"/>
 <instance part="BTN2" gate="G$1" x="151.13" y="28.194" rot="R270"/>
 <instance part="SV2" gate="1" x="51.054" y="-53.34"/>
 <instance part="SV1" gate="1" x="236.728" y="52.832"/>
+<instance part="T1" gate="A" x="157.48" y="124.46" rot="MR270"/>
+<instance part="P+3" gate="VCC" x="147.32" y="132.08"/>
+<instance part="T2" gate="A" x="169.418" y="164.846" rot="MR270"/>
+<instance part="T3" gate="A" x="214.884" y="167.132" rot="MR270"/>
 </instances>
 <busses>
 </busses>
@@ -22378,16 +22367,16 @@ http://www.semiconductors.philips.com/acrobat_download/datasheets/PCF8574_4.pdf<
 <pinref part="P+17" gate="VCC" pin="VCC"/>
 </segment>
 <segment>
-<pinref part="Q1" gate="G$1" pin="S"/>
-<wire x1="214.884" y1="167.132" x2="203.962" y2="167.132" width="0.1524" layer="91"/>
+<wire x1="209.804" y1="167.132" x2="203.962" y2="167.132" width="0.1524" layer="91"/>
 <wire x1="203.962" y1="167.132" x2="203.962" y2="171.958" width="0.1524" layer="91"/>
 <pinref part="P+7" gate="VCC" pin="VCC"/>
+<pinref part="T3" gate="A" pin="D"/>
 </segment>
 <segment>
-<pinref part="Q2" gate="G$1" pin="S"/>
-<wire x1="165.354" y1="165.354" x2="154.432" y2="165.354" width="0.1524" layer="91"/>
+<wire x1="164.338" y1="164.846" x2="154.432" y2="165.354" width="0.1524" layer="91"/>
 <wire x1="154.432" y1="165.354" x2="154.432" y2="170.18" width="0.1524" layer="91"/>
 <pinref part="P+8" gate="VCC" pin="VCC"/>
+<pinref part="T2" gate="A" pin="D"/>
 </segment>
 <segment>
 <wire x1="244.348" y1="50.292" x2="249.936" y2="50.292" width="0.1524" layer="91"/>
@@ -22410,15 +22399,15 @@ http://www.semiconductors.philips.com/acrobat_download/datasheets/PCF8574_4.pdf<
 <wire x1="-27.94" y1="-40.64" x2="-27.178" y2="-30.48" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<pinref part="Q3" gate="G$1" pin="S"/>
-<wire x1="162.814" y1="144.78" x2="151.892" y2="144.78" width="0.1524" layer="91"/>
-<wire x1="151.892" y1="144.78" x2="151.892" y2="149.606" width="0.1524" layer="91"/>
-<pinref part="P+19" gate="VCC" pin="VCC"/>
-</segment>
-<segment>
 <wire x1="43.434" y1="-50.8" x2="41.91" y2="-50.8" width="0.1524" layer="91"/>
 <label x="34.036" y="-50.8" size="1.778" layer="95"/>
 <pinref part="SV2" gate="1" pin="10"/>
+</segment>
+<segment>
+<pinref part="T1" gate="A" pin="D"/>
+<wire x1="152.4" y1="124.46" x2="147.32" y2="124.46" width="0.1524" layer="91"/>
+<wire x1="147.32" y1="124.46" x2="147.32" y2="129.54" width="0.1524" layer="91"/>
+<pinref part="P+3" gate="VCC" pin="VCC"/>
 </segment>
 </net>
 <net name="AREF" class="0">
@@ -23059,16 +23048,16 @@ http://www.semiconductors.philips.com/acrobat_download/datasheets/PCF8574_4.pdf<
 <label x="303.276" y="164.338" size="1.778" layer="95"/>
 </segment>
 <segment>
-<pinref part="Q1" gate="G$1" pin="D"/>
-<wire x1="225.044" y1="167.132" x2="233.172" y2="167.132" width="0.1524" layer="91"/>
+<wire x1="219.964" y1="167.132" x2="233.172" y2="167.132" width="0.1524" layer="91"/>
 <label x="234.696" y="167.386" size="1.778" layer="95"/>
+<pinref part="T3" gate="A" pin="S"/>
 </segment>
 </net>
 <net name="V_LCD" class="0">
 <segment>
-<pinref part="Q2" gate="G$1" pin="D"/>
-<wire x1="175.514" y1="165.354" x2="183.642" y2="165.354" width="0.1524" layer="91"/>
+<wire x1="174.498" y1="164.846" x2="183.642" y2="165.354" width="0.1524" layer="91"/>
 <label x="185.166" y="165.608" size="1.778" layer="95"/>
+<pinref part="T2" gate="A" pin="S"/>
 </segment>
 <segment>
 <pinref part="N5110" gate="1" pin="7"/>
@@ -23086,9 +23075,9 @@ http://www.semiconductors.philips.com/acrobat_download/datasheets/PCF8574_4.pdf<
 <label x="259.08" y="129.032" size="1.778" layer="95"/>
 </segment>
 <segment>
-<pinref part="Q3" gate="G$1" pin="D"/>
-<wire x1="172.974" y1="144.78" x2="181.102" y2="144.78" width="0.1524" layer="91"/>
-<label x="182.626" y="145.034" size="1.778" layer="95"/>
+<pinref part="T1" gate="A" pin="S"/>
+<wire x1="162.56" y1="124.46" x2="167.64" y2="124.46" width="0.1524" layer="91"/>
+<label x="167.64" y="124.714" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="P7" class="0">
@@ -23098,9 +23087,9 @@ http://www.semiconductors.philips.com/acrobat_download/datasheets/PCF8574_4.pdf<
 <label x="3.048" y="-63.5" size="1.778" layer="95"/>
 </segment>
 <segment>
-<pinref part="Q3" gate="G$1" pin="G"/>
-<wire x1="165.354" y1="149.86" x2="165.354" y2="152.4" width="0.1524" layer="91"/>
-<label x="165.1" y="152.654" size="1.778" layer="95"/>
+<pinref part="T1" gate="A" pin="G"/>
+<wire x1="160.02" y1="129.54" x2="160.02" y2="132.334" width="0.1524" layer="91"/>
+<label x="160.528" y="132.08" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="P6" class="0">
@@ -23195,9 +23184,9 @@ http://www.semiconductors.philips.com/acrobat_download/datasheets/PCF8574_4.pdf<
 <label x="4.318" y="-48.006" size="1.778" layer="95"/>
 </segment>
 <segment>
-<pinref part="Q1" gate="G$1" pin="G"/>
 <wire x1="217.424" y1="172.212" x2="217.424" y2="174.752" width="0.1524" layer="91"/>
 <label x="217.17" y="175.006" size="1.778" layer="95"/>
+<pinref part="T3" gate="A" pin="G"/>
 </segment>
 </net>
 <net name="P0" class="0">
@@ -23207,9 +23196,9 @@ http://www.semiconductors.philips.com/acrobat_download/datasheets/PCF8574_4.pdf<
 <label x="4.826" y="-45.212" size="1.778" layer="95"/>
 </segment>
 <segment>
-<pinref part="Q2" gate="G$1" pin="G"/>
-<wire x1="167.894" y1="170.434" x2="167.894" y2="172.974" width="0.1524" layer="91"/>
-<label x="167.64" y="173.228" size="1.778" layer="95"/>
+<label x="178.054" y="172.974" size="1.778" layer="95"/>
+<pinref part="T2" gate="A" pin="G"/>
+<wire x1="171.958" y1="169.926" x2="172.974" y2="172.974" width="0.1524" layer="91"/>
 </segment>
 </net>
 </nets>
